@@ -1,3 +1,6 @@
+
+*test
+
 /*
 Created by Richard Ball
 This version:  2015-09-21
@@ -10,7 +13,7 @@ set more off
 
 
 *IMPORT THE IMPORTABLE PEW DATA
-insheet using "..\Importable data\importable-wdi.csv", names
+insheet using "..\importable-data\importable-wdi.csv", names
 
 
 *DROP VARIABLE seriesname BECAUSE IT IS REDUNDANT WITH seriescode
